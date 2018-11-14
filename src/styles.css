@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto");
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card__hero {
+  position: relative;
+  background-color: goldenrod;
+}
+
+h2.card__hero-text {
+  font-family: "lato";
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  color: white;
+
+  padding: 90px 0;
+  margin: 0;
+}
+
+.card__user {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  margin: 0;
+}
+
+.card__user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+}
+
+.card__author {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 3px;
+
+  font-family: "lato";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.card__author > h2 {
+  margin: 0;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.card__author img {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  filter: grayscale(10%);
+}
+
+.card__content {
+  padding: 15px;
+}
+
+h2.card__content-title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+h2.card__content-title a {
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  color: black;
+  letter-spacing: 0.7px;
+}
+
+.card__content-desc {
+  font-family: "lato", sans-serif;
+}
